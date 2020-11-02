@@ -1,0 +1,6 @@
+syntax = "proto2";
+package protostrings;
+
+message ProtoString {
+  optional string s = 1;
+}

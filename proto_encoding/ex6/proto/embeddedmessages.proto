@@ -1,0 +1,12 @@
+syntax = "proto2";
+package embeddedmessages;
+
+message TopMessage{
+  optional EmbeddedMessage m = 1;
+}
+
+message EmbeddedMessage{
+  optional uint64 i = 1;
+  optional string s = 2;
+  optional bool b = 3;
+}

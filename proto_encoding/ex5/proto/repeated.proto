@@ -1,0 +1,7 @@
+syntax = "proto2";
+package repeated;
+
+message RepeatedInteger {
+  repeated uint64 integer = 1;
+  repeated uint64 packed_integer = 2 [packed=true];
+}

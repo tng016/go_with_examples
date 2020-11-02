@@ -1,0 +1,6 @@
+syntax = "proto2";
+package integers;
+
+message SingleInteger {
+  optional uint64 integer = 16;
+}
